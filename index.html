@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Haven</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="./img/logo.png" alt="image" class="logo">
+                <ul class="nav-list">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li> 
+                    <li><button class="btn btn-secondary">222-535-7887</button></li>
+                </ul>
+                <img src="./img/menu.svg" alt="" class="menu-btn" />
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">we all love</h1>
+                <h1 class="main-heading">nature</h1>
+                <p>
+                Explore nature and experience life like never before.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-title">
+            <h1>Our Services</h1>
+            <div class="line"></div>
+        </div>
+        <div class="services">
+            <div class="service">
+                <img src="./img/service-1.png" alt="">
+                <h3>Web Design</h3>
+                <p>
+                  Focus on how you can help and benefit your user. Use simple words
+                  so that you dont confuse people.
+                </p>
+            </div>
+            <div class="service">
+                <img src="./img/service-2.png" alt="">
+                <h3>Graphic Design</h3>
+                <p>
+                  Focus on how you can help and benefit your user. Use simple words
+                  so that you dont confuse people.
+                </p>
+            </div>
+            <div class="service">
+                <img src="./img/service-3.png" alt="">
+                <h3>Content Creation</h3>
+                <p>
+                  Focus on how you can help and benefit your user. Use simple words
+                  so that you dont confuse people.
+                </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <img src="./img/quote.png" alt="" />
+            <h1>"Orignial with an innate understanding of their customer's needs,
+                the team at Nature's Haven are always a pleasure to work with."
+            </h1>
+            <div class="profile">
+                <img src="./img/profile.png" alt="" />
+                <h4>Tosin Alheri</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>
+                    Welcome to Nature's Haven, your go-to destination for exploring the beauty and wonders of the natural world. 
+                </h1>
+                <p> 
+                    Our mission is to inspire a deeper connection with nature through educational resources, 
+                    stunning visuals, and eco-friendly tips. Join us in preserving the environment and celebrating the Earth's incredible diversity!</p>
+                    <button class="btn btn-primary">Let's Talk Now</button>
+            </div>
+            <div class="about-image">
+                <img src="./img/about.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div class="container">
+            <h1>QUESTIONS?</h1>
+            <P>Whether you're curious about features, a free trial or press, 
+                we're here to answer any questions.
+            </P>
+            <button class="btn btn-primary">Let's Talk Now</button> 
+        </div>
+    </section> 
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="./img/logo-colored.png" alt="" class="footerLogo" />
+            <p>Love Nature by Claudia Kay</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click', function() {
+         navList.classList.toggle('active');  
+        });
+    </script>
+</body>
+</html>
